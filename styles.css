@@ -1,0 +1,68 @@
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #B17F59;
+}
+
+.Madeira{
+    color: #E07A5F;
+}
+hr{
+    color:#EDE8DC;
+}
+
+h2{
+    color: #A5B68D;
+    font-weight: bolder;
+}
+
+.madeiramap{
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 20px;
+    color: #C1CFA1;
+    font-weight: 500;
+}
+
+.forest{
+    height: 150px;
+    float: right;
+    margin-left: 10px;
+}
+
+.tobbogan{
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.flowerfestival{
+    height: 150px;
+    float: right;
+    margin-left: 10px;
+}
+
+@media (max-width: 680px){
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p{
+        width: 100%;
+        display: inline;
+        text-align: justify;
+    }
+
+    img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
